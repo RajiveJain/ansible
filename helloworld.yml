@@ -1,5 +1,5 @@
 ---
-- hosts: "{{ target | default('localhost') }}"
+- hosts: ip-172-31-41-94
   become: yes
   roles:
     - helloworld
